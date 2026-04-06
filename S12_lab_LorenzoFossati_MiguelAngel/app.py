@@ -66,7 +66,7 @@ if st.button("Analizar", type="primary"):
 
         with st.spinner("Generando resumen..."):
             summary = summarize(cleaned)
-        st.markdown("**Resumen en espanol**")
+        st.markdown("**Resumen en español**")
         st.markdown(summary)
 
         st.divider()
