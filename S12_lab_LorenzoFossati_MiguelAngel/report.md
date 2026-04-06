@@ -31,7 +31,7 @@ The language is automatically detected using the `langdetect` library.
 Two separate calls are made to the model:
 
 - One to generate a summary with 3-5 key points in Spanish.
-- Another to classify the tone and return the response in JSON format.
+- Another to classify the tone and return the response.
 
 Separating the tasks allows a specific prompt to be used for each one and better control over the output.
 
